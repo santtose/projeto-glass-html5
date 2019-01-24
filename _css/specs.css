@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+
+section#conteudo{
+
+	width: 1000px;
+	margin: auto;
+    
+}
+
+iframe#frame-spec{
+
+	width: 400px;
+	height: 280px;
+	border: none;
+	overflow-y: hidden;
+
+}
+
+iframe#frame-spec::-webkit-scrollbar{
+
+	display: none;
+
+}
+/*teoricamente era pra barra de rolamento sumir com o overflow e webkit scrollbar, acrescentei overflow-y e x no body do arquivo que foi importado pelo iframe(google-glass.html)*/
+
+
+
